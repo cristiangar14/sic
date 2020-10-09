@@ -5,4 +5,4 @@
 <?php include('pages/home/seccion3.php')?>
 <?php include('pages/home/seccion4.php')?>
 <?php include('pages/home/seccion5.php')?>
-<?php include('footer.php')?>
+<?php include('footer-script.php')?>

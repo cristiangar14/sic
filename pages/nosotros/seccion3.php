@@ -1,6 +1,6 @@
 <section class="nosotros-seccion3">
     <div class="nosotros-seccion3-cajaizquierda">
-        <img src="" alt="icono">
+        <img src="../sic/img/iconos/meta.svg" alt="icono misión y visión">
     </div>
     <div class="nosotros-seccion3-cajaderecha"></div>
     <div class="container">
@@ -12,7 +12,7 @@
                         <p>
                             Somos una empresa socialmente responsable, especializada en la ejecución de proyectos y servicios relacionados con obras mecánicas, eléctricas, civiles y de mantenimiento industrial, generamos sustentabilidad en nuestro entorno, buscando el bienestar integral a largo plazo.
                         </p>
-                        <a href="#">PONERSE EN CONTACO</a>
+                        <a href="#">PONERSE EN CONTACTO</a>
                     </div>
                 </div>
                 <div class="item">
@@ -21,7 +21,7 @@
                         <p>
                             Para el año 2025, Soluciones Integrales de Colombia busca tener participación en el mercado nacional de los proyectos y servicios que los diferentes sectores de la economía demanden, buscando una actividad homogénea y estable para mantener la sustentabilidad corporativa y el entorno.
                         </p>
-                        <a href="#">PONERSE EN CONTACO</a>
+                        <a href="#">PONERSE EN CONTACTO</a>
                     </div>
                 </div>
             </div>

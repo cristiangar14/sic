@@ -132,6 +132,7 @@ header .navbar-light .navbar-nav .nav-link:hover {
     opacity: 1;
     font-family: 'Lato';
     font-weight: bold;
+    font-size: 35px;
 }
 .home-seccion1 .carrusel-home-seccion1 .home-seccion1-banner-fondo h3{
     text-align: left;
@@ -434,7 +435,8 @@ header .navbar-light .navbar-nav .nav-link:hover {
 /*---------------- home seccion4 ----------*/
 .home-seccion5{
     background-color: #EFF3F6;
-    padding: 50px 0;  
+    padding: 50px 0;
+    position: relative;  
 }
 .home-seccion5-contenido {
     margin-bottom: 50px;
@@ -532,6 +534,12 @@ footer .footer-contactos a{
 .footer-certificados{
     margin-bottom: 100px;
 }
+.footer-certificados img{
+    width: 22%;
+    height: 130px;
+    padding-right: 15px;
+
+}
 .fondo-footer{
     background-image: url('../img/home/bg-form-footer.png');
     background-repeat: no-repeat;
@@ -541,9 +549,18 @@ footer .footer-contactos a{
     opacity: 0.9;
     position: absolute;
     right: 0;
-    bottom: 3%;
-    top: 50%;
+    bottom: 5%;
+    top: 65%;
     width: 100%;
+}
+.fondo-footer-desvanecido{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #100F4C;
+    
+    mix-blend-mode: multiply;
 }
 .form-footer{
     padding-top: 6px;
@@ -745,47 +762,46 @@ footer .footer-contactos a{
     background: linear-gradient(0deg, rgba(237,242,245,1) 0%, rgba(237,242,245,0.05926120448179273) 100%);
 }
 .nosotros-seccion2-imagen{
-    margin-top: 30px;
+    margin: 30px 0;
 }
 
 /*-----------------nosotros seccion 3----------------*/
 .nosotros-seccion3{
-    background-image: url('../img/nosotros/banner-s3.jpg');
+    background-image: url('../img/nosotros/banner-s3.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     position: relative;
-    padding: 50px 0;
+    padding: 100px 0;
 }
 .nosotros-seccion3-cajaizquierda{
     position: absolute;
     left: 0;
     top: 50%;
-    width: 30%;
-    height: 50%;
+    width: 35%;
+    height: 40%;
     transform: translateY(-50%);
-    display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.5);
+    display: none;
 
+}
+.nosotros-seccion3-cajaizquierda img{
+    width: 35%;
 }
 .nosotros-seccion3-cajaderecha{
     position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
-    width: 50%;
-    background-color: #142850;
-    opacity: 0.9;
+    width: 100%;
+    background-color: #100F4C;
+    opacity: 0.7;
+    mix-blend-mode: multiply;
+    
 }
-.carrusel-nosotros-seccion3 .owl-nav{
-    position: absolute;
-    right: -10%;
-    bottom: 30%;
-    display: flex;
-    flex-direction: column;
-}
+
 .carrusel-nosotros-seccion3 .owl-nav button {
     font-size: 20px;
     border: 3px solid #ffffff !important;
@@ -842,8 +858,9 @@ footer .footer-contactos a{
     color: #ffffff;
     text-align: right;
     overflow: auto;
-    height: 300px;
+    height: 350px;
     font-size: 23px;
+    margin-bottom: 60px;
 }
 .carrusel-nosotros-seccion3-contenido a{
     text-decoration: none;
@@ -853,6 +870,87 @@ footer .footer-contactos a{
     text-align: center;
 }
 
+
+/*-----------------nosotros seccion 4----------------*/
+.nosotros-seccion4{
+    position: relative;
+}
+.nosotros-seccion4 .fondo-footer {
+    background-image: url(../img/home/bg-form-footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    mix-blend-mode: multiply;
+    opacity: 0.9;
+    position: absolute;
+    right: 0;
+    bottom: 2%;
+    top: 64%;
+    width: 100%;
+}
+.nosotros-seccion4 .footer-certificados {
+    margin-bottom: 100px;
+    display: none;
+}
+.nosotros-seccion4 .footer-ubicacion {
+    margin-bottom: 80px;
+}
+
+.nosotros-seccion4 .titulo-certificaciones{
+    color: #253B6E;
+    background-image: url('../img/fonto-titulo.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 5px 20px 25px 0;
+    display: block;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+    width: fit-content;
+    margin: 30px 0;
+}
+.nosotros-seccion4 p{
+    color: #253B6E;
+    width: 85%;
+}
+.nosotros-seccion4 .cerficiaciones-img{
+    width: 90%;
+}
+.nosotros-seccion4 .cerficiaciones-img img{
+    width: 30%;
+    padding-right: 20px;
+}
+
+.nosotros-seccion4 .titulo-descargables{
+    color: #253B6E;
+    background-image: url('../img/fonto-titulo.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 5px 0px 25px 0;
+    display: block;
+    font-size: 26px;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+    width: fit-content;
+    margin: 30px 0;
+}
+.nosotros-seccion4 .nosotros-descargables{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nosotros-seccion4 .nosotros-descargables a{
+    color: #253B6E;
+    text-decoration: none;
+}
+.nosotros-seccion4 .nosotros-descargables span{
+    color: #16909E;
+    margin-right: 10px;
+    font-size: 30px;
+}
 @media (max-width: 320px) {
     /*---------------header-------------------*/
     header a.navbar-brand {
@@ -897,6 +995,17 @@ footer .footer-contactos a{
         top: inherit;
         right: inherit;
     }
+    /*---------------footer------------------*/
+    .footer-certificados img{
+        width: 30%;
+        height: 130px;
+        padding-right: 15px;
+    
+    }
+
+    
+
+    
 }
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
@@ -938,7 +1047,18 @@ footer .footer-contactos a{
         background-position: left;
       
     }
-
+    /*-----------------nosotros seccion 3----------------*/
+    .nosotros-seccion3{
+        padding: 50px 0;
+    }
+    .carrusel-nosotros-seccion3-contenido p{
+        color: #ffffff;
+        text-align: right;
+        overflow: auto;
+        height: 250px;
+        font-size: 23px;
+        margin-bottom: 60px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -953,6 +1073,8 @@ footer .footer-contactos a{
         font-size: 40px;
         font-family: 'Lato';
         font-weight: bold;
+        font-size: 50px;
+        max-width: 60%;
     }
     .home-seccion1 .carrusel-home-seccion1 .home-seccion1-banner-fondo h3{
         font: normal normal bold 32px/44px Lato;
@@ -1002,11 +1124,18 @@ footer .footer-contactos a{
         position: absolute;
         right: 0;
         bottom: 0;
-        top: -70%;
+        top: 0%;
         width: 35%;
     }
     .form-footer{
         padding: 50px 0;
+    }
+    
+    .footer-certificados img{
+        width: 33%;
+        height: 120px;
+        padding-right: 15px;
+    
     }
     /*-----------------nosotros----------------*/
 
@@ -1084,6 +1213,171 @@ footer .footer-contactos a{
         padding-bottom: 100px;
 
     }
+    /*-----------------nosotros seccion 3----------------*/
+    .nosotros-seccion3{
+        background-image: url('../img/nosotros/banner-s3.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+        padding: 100px 0;
+    }
+    .nosotros-seccion3-cajaizquierda{
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 35%;
+        height: 40%;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.5);
+
+    }
+    .nosotros-seccion3-cajaizquierda img{
+        width: 35%;
+    }
+    .nosotros-seccion3-cajaderecha{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 50%;
+        background-color: #100F4C;
+        opacity: 0.7;
+        mix-blend-mode: multiply;
+        
+    }
+    .carrusel-nosotros-seccion3 .owl-nav{
+        position: absolute;
+        right: -10%;
+        bottom: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+    .carrusel-nosotros-seccion3 .owl-nav button {
+        font-size: 20px;
+        border: 3px solid #ffffff !important;
+        /*transform: rotate(90deg);*/
+        margin: 0;
+        margin-bottom: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        padding: 3px;
+        height: 35px;
+        width: 35px;
+        font-size: 30px !important;
+        line-height: 25px !important;
+        background-color: transparent !important;
+        color: #ffffff !important;
+    }
+
+    .carrusel-nosotros-seccion3 .owl-nav button:hover,
+    .carrusel-nosotros-seccion3 .owl-nav button:focus{
+        background-color: transparent !important;
+        border: 3px solid #00909E !important;  
+        color: #00909E !important;
+        transition: all .5s;
+    }
+    .carrusel-nosotros-seccion3 .owl-dots{
+        display: none;
+    }
+
+
+
+    .carrusel-nosotros-seccion3-contenido{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 25px 10px;
+    }
+    .carrusel-nosotros-seccion3-contenido h2{
+        color: #ffffff;
+        text-align: right;
+        background-image: url('../img/fonto-titulo-blanco.svg');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        padding: 5px 0 15px 20px;
+        display: block;
+        font-size: 30px;
+        text-align: left;
+        letter-spacing: 0px;
+        opacity: 1;
+        width: fit-content;
+        margin-bottom: 50px;
+    }
+    .carrusel-nosotros-seccion3-contenido p{
+        color: #ffffff;
+        text-align: right;
+        overflow: auto;
+        height: 350px;
+        font-size: 23px;
+    }
+    .carrusel-nosotros-seccion3-contenido a{
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #16909E;
+        padding: 25px 15px;
+        text-align: center;
+    }
+    /*-----------------nosotros seccion 4----------------*/
+    
+    .nosotros-seccion4 p{
+        color: #253B6E;
+        width: 50%;
+    }
+    .nosotros-seccion4 .fondo-footer{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        top: 0%;
+        width: 35%;
+    }
+    .nosotros-seccion4 .footer-certificados {
+        margin-bottom: 100px;
+        display: block;
+    }
+    .nosotros-seccion4 .cerficiaciones-img{
+        width: 50%;
+    }
+    .nosotros-seccion4 .cerficiaciones-img img{
+        width: 30%;
+    }
+    .descargables, .nosotros-seccion4-certificaciones{
+        padding: 0;
+    }
+    .nosotros-seccion4 .titulo-descargables{
+        color: #ffffff;
+        background-image: url('../img/fonto-titulo-blanco.svg');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        padding: 5px 0px 25px 0;
+        display: block;
+        font-size: 26px;
+        text-align: left;
+        letter-spacing: 0px;
+        opacity: 1;
+        width: fit-content;
+        margin: 30px 0;
+    }
+    .nosotros-seccion4 .nosotros-descargables{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .nosotros-seccion4 .nosotros-descargables a{
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .nosotros-seccion4 .nosotros-descargables span{
+        color: #16909E;
+        margin-right: 10px;
+        font-size: 30px;
+    }
+
     
     
 
@@ -1094,6 +1388,15 @@ footer .footer-contactos a{
     /*--------------------home seccion1 -----------------*/
     .home-seccion1 .carrusel-home-seccion1 .home-seccion1-banner-fondo{
         padding: 10% 5% 10% 15%;
+    }
+    
+    .home-seccion1 .carrusel-home-seccion1 .home-seccion1-banner-fondo h2{
+        text-align: left;
+        font-size: 40px;
+        font-family: 'Lato';
+        font-weight: bold;
+        font-size: 60px;
+        max-width: 50%;
     }
     .home-seccion1 .carrusel-home-seccion1 .owl-dots{
         width: 5%;
@@ -1166,6 +1469,13 @@ footer .footer-contactos a{
         width: 75%;
         margin-top: 20px;
     } 
+    /*---------------footer------------------*/
+    .footer-certificados img{
+        width: 27%;
+        height: 120px;
+        padding-right: 15px;
+    
+    }
     /*-----------------nosotros----------------*/
 
     .nosotros-seccion1 .nosotros-seccion1-banner{
@@ -1233,6 +1543,14 @@ footer .footer-contactos a{
         height: 600px;
         width: 70%;
     }
+
+    /*---------------footer------------------*/
+    .footer-certificados img{
+        width: 27%;
+        height: 130px;
+        padding-right: 15px;
+    
+    }
     /*-----------------nosotros----------------*/
 
     .nosotros-seccion1 .nosotros-seccion1-banner{
@@ -1257,6 +1575,10 @@ footer .footer-contactos a{
 @media (min-width: 1800px) {
     /*--------------------footer -----------------*/
     .fondo-footer{
+        width: 39%;
+    }
+    /*---------------nosotros seccion 4*/
+    .nosotros-seccion4 .fondo-footer{
         width: 39%;
     }
 }

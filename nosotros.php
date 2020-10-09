@@ -3,4 +3,5 @@
 <?php include('pages/nosotros/seccion1.php')?>
 <?php include('pages/nosotros/seccion2.php')?>
 <?php include('pages/nosotros/seccion3.php')?>
-<?php include('footer.php')?>
+<?php include('pages/nosotros/seccion4.php')?>
+<?php include('footer-script.php')?>

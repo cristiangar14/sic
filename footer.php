@@ -1,7 +1,5 @@
 <footer>
-    <div class="fondo-footer">
-
-    </div>
+    
     <div class="container">
         <div class="row ">
             <div class="col-12 col-md-9 footer-contenedor">
@@ -27,16 +25,17 @@
                                 <a href="#">gerencia@cesarjerezsic.com</a>
                             </div>
                         </div>
-                        <div class="footer-contactos">
+                        <div class="footer-contactos footer-ubicacion">
                             <i class="fas fa-map-marker-alt"></i>
                             <a href="#">Carrera 22 # 7 39 Barrio Sevilla Aguazul, Casanare – Colombia</a>
                         </div>
                     </div>
-                    <div class="col-md-6 footer-certificados">
+                    <div class="col-md-5 footer-certificados">
                         <h4>Certificados:</h4>
                         <div class="d-flex img-cerificados-footer">
-                            <img src="../sic/img/iconos/iso-9001.svg" alt="certificado iso 9001 icontec">
-                            <img src="../sic/img/iconos/ohsas-18001.svg" alt="certificado ohsas 18001 icontec">
+                            <img src="../sic/img/iconos/iso-9001.png" alt="certificado iso 9001 icontec">
+                            <img src="../sic/img/iconos/ohsas-18001.png" alt="certificado ohsas 18001 icontec">
+                            <img src="../sic/img/iconos/iso-14001.png" alt="certificado iso 14001 icontec">
                         </div>
                     </div>
                 </div>
@@ -85,18 +84,3 @@
     </div>
 </footer>
 
-
-    <!-- bootstrap -->
-    <!-- JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
-    <!--owl carousel-->
-    <script src="owlcarousel/jquery.min.js"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
-    <!-- js -->
-    <script src="js/index.js"></script>
-    
-</body>
-</html>

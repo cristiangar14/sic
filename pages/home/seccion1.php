@@ -2,25 +2,19 @@
     <div class="owl-carousel owl-theme carrusel-home-seccion1">
         <div class="item home-seccion1-banner1">
             <div class="home-seccion1-banner-fondo">
-                <h4>Ofrecemos soluciones integrales</h4>
-                <h2>a sus necesidades</h2>
-                <h3>Nuestro proposito, la sustentabilidad del entorno</h3>
+                <h2>Comprometidos con la calidad</h2>
             </div>
             
         </div>
         <div class="item home-seccion1-banner2">
             <div class="home-seccion1-banner-fondo">
-                <h4>Ofrecemos soluciones integrales</h4>
-                <h2>a sus necesidades</h2>
-                <h3>Nuestro proposito, la sustentabilidad del entorno</h3>
+                <h2>Comprometidos con la calidad</h2>
             </div>
             
         </div>
         <div class="item home-seccion1-banner3">
             <div class="home-seccion1-banner-fondo">
-                <h4>Ofrecemos soluciones integrales</h4>
-                <h2>a sus necesidades</h2>
-                <h3>Nuestro proposito, la sustentabilidad del entorno</h3>
+                <h2>Comprometidos con la calidad</h2>
             </div>
             
         </div>

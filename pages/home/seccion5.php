@@ -1,4 +1,7 @@
 <section class="home-seccion5">
+    <div class="fondo-footer">
+        <div class="fondo-footer-desvanecido"></div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-10 col-md-7 home-seccion5-contenido">
@@ -46,4 +49,5 @@
             </div>
         </div>
     </div>
+    <?php include('footer.php')?>
 </section>
