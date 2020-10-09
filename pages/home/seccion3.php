@@ -11,21 +11,62 @@
             </div>
             <div class="col-9">
                 <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane d-flex fade show active" id="home-seccion3-nosotros" role="tabpanel" aria-labelledby="home-seccion3-nosotros-tab">
-                        <div class="col-12 col-md-12 col-lg-5">
-                            <img src="../sic/img/iconos/icono-nosotros.svg" alt="icono nosotros">
-                            <a href="#">IR A NOSOTROS</a>
-                        </div>
-                        <div class="col-12 col-md-12 col-lg-7">
-                            <H2>NOSOTROS</H2>
-                            <P>
-                                Soluciones Integrales de Colombia en el desarrollo de Proyectos Civiles, Mecánicos, Eléctricos y de Mantenimiento Industrial garantiza la calidad de sus proyectos con el fin de satisfacer las necesidades y expectativas de los clientes a través del talento humano competente e idóneo.
-                            </P>
+                    <div class=" tab-pane  fade show active" id="home-seccion3-nosotros" role="tabpanel" aria-labelledby="home-seccion3-nosotros-tab">
+                        <div class="home-tab d-flex">
+                            <div class="home-tab-iconoboton col-12 col-md-12 col-lg-5">
+                                <img src="../sic/img/iconos/icono-nosotros.svg" alt="icono nosotros">
+                                <a href="#">IR A NOSOTROS</a>
+                            </div>
+                            <div class="home-tab-contenido col-12 col-md-12 col-lg-7">
+                                <H3>NOSOTROS</H3>
+                                <P>
+                                    Soluciones Integrales de Colombia en el desarrollo de Proyectos Civiles, Mecánicos, Eléctricos y de Mantenimiento Industrial garantiza la calidad de sus proyectos con el fin de satisfacer las necesidades y expectativas de los clientes a través del talento humano competente e idóneo.
+                                </P>
+                            </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="home-seccion3-mision" role="tabpanel" aria-labelledby="home-seccion3-mision-tab">mision</div>
-                    <div class="tab-pane fade" id="home-seccion3-vision" role="tabpanel" aria-labelledby="home-seccion3-vision-tab">vision</div>
-                    <div class="tab-pane fade" id="home-seccion3-gcalidad" role="tabpanel" aria-labelledby="home-seccion3-gcalidad-tab">Gestion de calidad</div>
+                    <div class="tab-pane fade" id="home-seccion3-mision" role="tabpanel" aria-labelledby="home-seccion3-mision-tab">
+                        <div class="home-tab d-flex">
+                            <div class="home-tab-iconoboton col-12 col-md-12 col-lg-5">
+                                <img src="../sic/img/iconos/mision.svg" alt="icono mision">
+                                <a href="#">IR A NOSOTROS</a>
+                            </div>
+                            <div class="home-tab-contenido col-12 col-md-12 col-lg-7">
+                                <H3>MISIÓN</H3>
+                                <P>
+                                    Somos una empresa socialmente responsable, especializada en la ejecución de proyectos y servicios relacionados con obras mecánicas, eléctricas, civiles y de mantenimiento industrial, generamos sustentabilidad en nuestro entorno, buscando el bienestar integral a largo plazo.
+                                </P>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="home-seccion3-vision" role="tabpanel" aria-labelledby="home-seccion3-vision-tab">
+                        <div class="home-tab d-flex">
+                            <div class="home-tab-iconoboton col-12 col-md-12 col-lg-5">
+                                <img src="../sic/img/iconos/vision.svg" alt="icono vision">
+                                <a href="#">IR A NOSOTROS</a>
+                            </div>
+                            <div class="home-tab-contenido col-12 col-md-12 col-lg-7">
+                                <H3>VISIÓN</H3>
+                                <P>
+                                    Para el año 2025, Soluciones Integrales de Colombia busca tener participación en el mercado nacional de los proyectos y servicios que los diferentes sectores de la economía demanden, buscando una actividad homogénea y estable para mantener la sustentabilidad corporativa y el entorno.
+                                </P>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="home-seccion3-gcalidad" role="tabpanel" aria-labelledby="home-seccion3-gcalidad-tab">
+                        <div class="home-tab d-flex">
+                            <div class="home-tab-iconoboton col-12 col-md-12 col-lg-5">
+                                <img src="../sic/img/iconos/control-de-calidad.svg" alt="icono gestion de calidad">
+                                <a href="#">IR A NOSOTROS</a>
+                            </div>
+                            <div class="home-tab-contenido col-12 col-md-12 col-lg-7">
+                                <H3>GESTIÓN DE CALIDAD</H3>
+                                <P>
+                                    Cumplimos con los lineamientos de la NTC - ISO 9001 [Gestión de Calidad], NTC ISO 14001 [Gestión Ambiental], OHSAS 18001 con transición a NTC ISO 45001 [Seguridad Industrial y Salud Ocupacional] y los de la GUÍA RUC [Seguridad, Salud en el trabajo, y Ambiente].
+                                </P>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
