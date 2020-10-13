@@ -22,14 +22,14 @@
                 
                 <div class="collapse navbar-collapse nav-header" id="navbarTogglerDemo03">
                     <ul class="navbar-nav w-100">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="index.php">INICIO<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="nosotros.php">NOSOTROS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">SERVICIOS</a>
+                            <a class="nav-link" href="servicios.php">SERVICIOS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">POLITICA HSEQ.</a>

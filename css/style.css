@@ -34,6 +34,18 @@ header .nav-header ul.navbar-nav {
 header .navbar-light .navbar-nav .nav-link {
     color: #253B6E;
 }
+header .navbar-light .navbar-nav .item .active{
+    box-sizing: content-box;
+    
+}
+header .navbar-light .navbar-nav .active{
+    color: #253B6E;
+    border: 1px solid #16909E;
+    padding: 10px 20px;
+    height: 20px;
+    text-decoration: none;
+    
+}
 header .navbar-light .navbar-nav .active>.nav-link {
     color: #253B6E;
     border: 1px solid #16909E;
@@ -951,7 +963,247 @@ footer .footer-contactos a{
     margin-right: 10px;
     font-size: 30px;
 }
-@media (max-width: 320px) {
+
+
+/*-------------------servicios -----------------------*/
+/*------------------servicios seccion1---------------*/
+.servicios-seccion1-banner{
+    background-image: url('../img/servicios/banner-s1.png') !important;
+}
+.servicios-seccion1-banner-color{
+    background-color: transparent !important;
+}
+
+/*------------------servicios seccion2---------------*/
+.servicios-seccion2{
+    position: relative;
+    padding: 0 10px;
+}
+.servicios-seccion2-banner{
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    top: -40px;
+    background-image: url('../img/servicios/banner-s2.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: none;
+}
+.servicioss2-contenedor-izq{
+    position: absolute;
+    bottom: 0;
+    top: 30%;
+    left: 0;
+    width: 100%;
+    background-color: #EDF2F5;
+}
+
+.carrusel-servicios-s2 .owl-dots{
+    display: none;
+}
+.carrusel-servicios-s2>.owl-nav{
+    position: absolute;
+    display: none;
+}
+
+.carrusel-servicios-s2 .item h3{
+    color: #253B6E;
+    background-image: url('../img/fonto-titulo.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 5px 30% 15px 0;
+    display: block;
+    font-size: 26px;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+    width: fit-content;
+    margin: 30px 0;
+}
+.carrusel-servicios-s2 .item .servicios-seccion2-parrafo{
+    color: #253B6E;
+    width: 95%;
+    height: 230px;
+    overflow: auto;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.carrusel-servicios-s2.fila2{
+    background-color: #EDF2F5;
+    max-width: 100%;
+}
+.carrusel-servicios-s2 .item h4{
+    color: #16909E;
+    margin-bottom: 20px;
+}
+.carrusel-servicios-s2 .item ul{
+    list-style: none;
+    padding: 0;
+    height: 250px;
+    overflow: auto;
+    margin-bottom: 50px;
+}
+.carrusel-servicios-s2 .item ul::-webkit-scrollbar{
+    width: 7px;
+}
+.carrusel-servicios-s2 .item ul::-webkit-scrollbar-thumb{
+    background-color: #00909E;
+    border-radius: 30px;
+}
+.carrusel-servicios-s2 .item ul li{
+    color: #253B6E;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.carrusel-servicios-s2 .item ul li p{
+    color: #253B6E;
+    
+    margin-bottom: 0;
+    width: 90%;
+    font-size: 18px;
+}
+.carrusel-servicios-s2 .item ul li::before{
+    content: "";
+    background-color: #16909E;
+    width: 7px;
+    height: 7px;
+    display: block;
+    margin-right: 10px !important;
+}
+.carrusel-servicios-s2 .item .servicios-s2-item-contenido .servicios-s2-item-contenido-parrafo{
+    color: #253B6E;
+    width: 100%;
+    height: 80px;
+    font-size: 16px;
+    overflow: auto;
+}
+.carrusel-servicios-s2 .item .servicios-s2-item-contenido .servicios-s2-item-contenido-parrafo::-webkit-scrollbar{
+    width: 7px;
+}
+.carrusel-servicios-s2 .item .servicios-s2-item-contenido .servicios-s2-item-contenido-parrafo::-webkit-scrollbar-thumb{
+    background-color: #00909E;
+    border-radius: 30px;
+}
+.carrusel-servicios-s2-imagenes{
+    height: 100%;
+}
+.carrusel-servicios-s2-imagenes .item{
+    min-height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carrusel-servicios-s2-img-1{
+    background-image: url('../img/servicios/mecanico/mecanico-1.png');
+}
+.carrusel-servicios-s2-img-2{
+    background-image: url('../img/servicios/mecanico/mecanico-2.png');
+}
+.carrusel-servicios-s2-img-3{
+    background-image: url('../img/servicios/mecanico/mecanico-3.png');
+}
+.carrusel-servicios-s2-img-4{
+    background-image: url('../img/servicios/civil/civil-1.png');
+}
+.carrusel-servicios-s2-img-5{
+    background-image: url('../img/servicios/civil/civil-2.png');
+}
+.carrusel-servicios-s2-img-6{
+    background-image: url('../img/servicios/civil/civil-3.png');
+}
+.carrusel-servicios-s2-img-7{
+    background-image: url('../img/servicios/industrial/industrial-1.png');
+}
+.carrusel-servicios-s2-img-8{
+    background-image: url('../img/servicios/industrial/industrial-2.png');
+}
+.carrusel-servicios-s2-img-9{
+    background-image: url('../img/servicios/industrial/industrial-3.png');
+}
+.carrusel-servicios-s2-img-10{
+    background-image: url('../img/servicios/electrica/electrica-1.png');
+}
+.carrusel-servicios-s2-img-11{
+    background-image: url('../img/servicios/electrica/electrica-2.png');
+}
+.carrusel-servicios-s2-img-12{
+    background-image: url('../img/servicios/electrica/electrica-3.png');
+}
+.carrusel-servicios-s2-img-13{
+    background-image: url('../img/servicios/ensayo/ensayo-1.png');
+}
+.carrusel-servicios-s2-img-14{
+    background-image: url('../img/servicios/ensayo/ensayo-2.png');
+}
+.carrusel-servicios-s2-img-15{
+    background-image: url('../img/servicios/ensayo/ensayo-3.png');
+}
+.carrusel-servicios-s2-img-contenido{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 60% 0 0 10%;
+}
+.carrusel-servicios-s2-img-hover{
+    display: none;
+}
+
+.carrusel-servicios-s2-imagenes .item:hover .carrusel-servicios-s2-img-hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.carrusel-servicios-s2-imagenes .item:hover .carrusel-servicios-s2-img-hover a{
+    color: #ffffff;
+    
+}
+.carrusel-servicios-s2-img .owl-nav button {
+    font-size: 20px;
+    border: 3px solid #00909E !important;
+    /*transform: rotate(90deg);*/
+    margin: 2px !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 3px;
+    height: 35px;
+    width: 35px;
+    font-size: 30px !important;
+    line-height: 25px !important;
+    background-color: #00909E !important;
+    color: #ffffff !important;
+}
+.carrusel-servicios-s2-img .owl-nav button:hover,
+.carrusel-servicios-s2.carrusel-servicios-s2-img{
+    background-color: transparent !important;
+    border: 3px solid #00909E !important;  
+    color: #00909E !important;
+    transition: all .5s;
+}
+
+.carrusel-servicios-s2-img .carrusel-servicios-s2-img-btn{
+    color: #ffffff;
+    background-color: #16909E;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+
+/*------------------servicios seccion3---------------*/
+.servicios-seccion3{
+    background-color: #ffffff;
+}
+@media (max-width: 325px) {
     /*---------------header-------------------*/
     header a.navbar-brand {
         width: 70%;
@@ -1002,9 +1254,21 @@ footer .footer-contactos a{
         padding-right: 15px;
     
     }
-
+    /*---------------servicios seccion 2------------------*/
     
-
+    .carrusel-servicios-s2 .item .servicios-seccion2-parrafo{
+        height: 300px;
+        margin-bottom: 40px;
+    }
+    .carrusel-servicios-s2 .item .servicios-s2-item-contenido .servicios-s2-item-contenido-parrafo{
+        height: 155px;
+    }
+   
+    .servicioss2-contenedor-izq{
+        top: 30%;
+        left: 0;
+        
+    }
     
 }
 /* Small devices (landscape phones, 576px and up)*/
@@ -1058,6 +1322,14 @@ footer .footer-contactos a{
         height: 250px;
         font-size: 23px;
         margin-bottom: 60px;
+    }
+    /*---------------servicios seccion 2------------------*/
+    .servicioss2-contenedor-izq{
+        top: 25%;
+    }
+    .carrusel-servicios-s2 .item .servicios-seccion2-parrafo{
+        height: 200px;
+        margin-bottom: 40px;
     }
 }
 
@@ -1378,6 +1650,84 @@ footer .footer-contactos a{
         font-size: 30px;
     }
 
+    /*------------------servicios seccion2---------------*/
+    .servicios-seccion2{
+        position: relative;
+        padding: 0 10px;
+    }
+    .servicios-seccion2-banner{
+        width: 50%;
+        height: 80%;
+        position: absolute;
+        left: 50%;
+        top: -30px;
+        background-image: url('../img/servicios/banner-s2.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        display: block;
+    }
+    .servicioss2-contenedor-izq{
+        position: absolute;
+        bottom: 0;
+        top: 45%;
+        left: 0;
+        width: 50%;
+    }
+
+    .carrusel-servicios-s2>.owl-nav{
+        display: flex;
+        flex-direction: column;
+        top: 30%;
+        left: 43%;
+    }
+    .carrusel-servicios-s2 .owl-nav button {
+        font-size: 20px;
+        border: 3px solid #00909E !important;
+        /*transform: rotate(90deg);*/
+        margin: 2px !important;
+
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        padding: 3px;
+        height: 35px;
+        width: 35px;
+        font-size: 30px !important;
+        line-height: 25px !important;
+        background-color: #00909E !important;
+        color: #ffffff !important;
+    }
+    
+    .carrusel-servicios-s2 .owl-nav button:hover,
+    .carrusel-servicios-s2 .owl-nav button:focus{
+        background-color: transparent !important;
+        border: 3px solid #00909E !important;  
+        color: #00909E !important;
+        transition: all .5s;
+    }
+
+    .carrusel-servicios-s2 .item .servicios-seccion2-parrafo{
+        width: 80%;
+        height: 300px;
+        overflow: auto;
+        font-size: 18px;
+    }
+    .carrusel-servicios-s2 .item ul{
+        list-style: none;
+        padding: 0;
+        height: 300px;
+        overflow: auto;
+    }
+    .carrusel-servicios-s2 .item ul li{
+        margin-bottom: 10px;
+    }
+    .carrusel-servicios-s2 .item ul li p{
+        margin-bottom: 0;
+        width: 90%;
+        font-size: 18px;
+    }
+
     
     
 
@@ -1500,6 +1850,12 @@ footer .footer-contactos a{
     .nosotros-seccion2 .nosotros-seccion2-cajaderecha{
         top: -40px;
     }
+    /*------------------servicios seccion2---------------*/
+   
+    .servicios-seccion2-banner{
+        top: -40px;
+
+    }
     
 }
 
@@ -1571,6 +1927,13 @@ footer .footer-contactos a{
         width: 50%;
         height: 40px;
     }
+
+    /*-----------------servicios seccion2---------------*/
+    .servicioss2-contenedor-izq{
+        top: 42%;
+        left: 0;
+        width: 50%;
+    }
 }
 @media (min-width: 1800px) {
     /*--------------------footer -----------------*/
@@ -1581,4 +1944,5 @@ footer .footer-contactos a{
     .nosotros-seccion4 .fondo-footer{
         width: 39%;
     }
+    
 }

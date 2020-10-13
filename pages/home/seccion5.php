@@ -1,4 +1,4 @@
-<section class="home-seccion5">
+<section class="home-seccion5 servicios-seccion3">
     <div class="fondo-footer">
         <div class="fondo-footer-desvanecido"></div>
     </div>
