@@ -1,6 +1,6 @@
 // menu de navegacion - localizacion
 const currentLocation = location.href;
-const menuItem = document.querySelectorAll('.nav-x');
+const menuItem = document.querySelectorAll('.nav-link');
 const menulenght = menuItem.length
 
 for(let i =0; i<menulenght; i++){
@@ -36,6 +36,9 @@ $('.carrusel-home-seccion1').owlCarousel({
 $('.carrusel-home-seccion2').owlCarousel({
     loop:true,
     margin:10,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
     nav:true,
     responsive:{
         0:{
@@ -54,6 +57,10 @@ $('.carrusel-home-seccion2').owlCarousel({
 $('.carrusel-home-seccion4').owlCarousel({
     loop:true,
     margin:10,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    animateOut: 'fadeOut',
     nav:true,
     responsive:{
         0:{
@@ -150,5 +157,52 @@ $('.carrusel-servicios-s2-imagenes').owlCarousel({
         1000:{
             items:1
         }
+    }
+})
+
+//carrusel de hseq seccion2 
+$('.carrusel-hseq').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoHeight: true,
+    autoplay:true,
+    autoplayTimeout:5000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+
+//carrusel de hseq seccion2 imagenes
+$('.carrusel-hseq-imgs').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoWidth:true,
+    autoHeight: true,
+    items:1,
+    autoplay:true,
+    autoplayTimeout:4000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:2
+        }
+        
     }
 })

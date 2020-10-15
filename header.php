@@ -1,19 +1,19 @@
 <header>
     <div class="container">
-        <div class="row justify-content-center align-items-center header-superior">
-            <div class="d-flex align-items-center mb-2 mr-5">
+        <div class="row align-items-center header-superior">
+            <div class="d-flex align-items-center mb-2 ">
                 <span class="far fa-envelope icono-contacto-header text-center"></span>
-                <a href="#">proyectos@cesarjerezsic.com</a>
+                <a href="mailto:proyectos@cesarjerezsic.com" target="_blank">proyectos@cesarjerezsic.com</a>
             </div>
-            <div class="d-flex align-items-center mb-2 mr-5">
+            <div class="d-flex align-items-center mb-2 ">
                 <span class="fab fa-whatsapp icono-contacto-header text-center"></span>
-                <a href="#">3112029138</a><span> - </span>
-                <a href="#">3115210004</a>
+                <a href="tel:+573112029138" target="_blank">3112029138</a><span> - </span>
+                <a href="tel:+573115210004" target="_blank">3115210004</a>
             </div>
         </div>
         <div class="row">
             <nav class="navbar navbar-expand-lg navbar-light w-100">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.php">
                     <img class="img-fluid" src="img/logo-sic.png"  alt="logo sic" loading="lazy">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,13 +32,13 @@
                             <a class="nav-link" href="servicios.php">SERVICIOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">POLITICA HSEQ.</a>
+                            <a class="nav-link" href="hseq.php">POLITICA HSEQ.</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">GALERIA</a>
+                            <a class="nav-link" href="galeria.php">GALERIA</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACTO</a>
+                            <a class="nav-link" href="contacto.php">CONTACTO</a>
                         </li>
                     </ul>
                 </div>

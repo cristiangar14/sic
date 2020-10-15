@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="carrusel-servicios-s2 owl-carousel owl-theme">
-                <div class="item servicios-s2-item-1">
+                <div class="item servicios-s2-item-1" id="s.mecanico">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6">
@@ -79,25 +79,25 @@
                                     <div class="item carrusel-servicios-s2-img-1">
                                         <div class="carrusel-servicios-s2-img-contenido">
                                             <div class="carrusel-servicios-s2-img-hover">
-                                                <a href="#">Ver mas</a>
+                                                <a href="galeria.php">Ver mas</a>
                                             </div>
-                                            <a class="carrusel-servicios-s2-img-btn" href="#">CONTÁCTANOS</a>
+                                            <a class="carrusel-servicios-s2-img-btn" href="contacto.php">CONTÁCTANOS</a>
                                         </div>
                                     </div>
                                     <div class="item carrusel-servicios-s2-img-2">
                                         <div class="carrusel-servicios-s2-img-contenido">
                                             <div class="carrusel-servicios-s2-img-hover">
-                                                <a href="#">Ver mas</a>
+                                                <a href="galeria.php">Ver mas</a>
                                             </div>
-                                            <a class="carrusel-servicios-s2-img-btn" href="#">CONTÁCTANOS</a>
+                                            <a class="carrusel-servicios-s2-img-btn" href="contacto.php">CONTÁCTANOS</a>
                                         </div>
                                     </div>
                                     <div class="item carrusel-servicios-s2-img-3">
                                         <div class="carrusel-servicios-s2-img-contenido">
                                             <div class="carrusel-servicios-s2-img-hover">
-                                                <a href="#">Ver mas</a>
+                                                <a href="galeria.php">Ver mas</a>
                                             </div>
-                                            <a class="carrusel-servicios-s2-img-btn" href="#">CONTÁCTANOS</a>
+                                            <a class="carrusel-servicios-s2-img-btn" href="contacto.php">CONTÁCTANOS</a>
                                         </div>
                                     </div>
                                 </div>
@@ -106,7 +106,7 @@
                     </div>
                 </div>
                     
-                <div class="item servicios-s2-item-2">
+                <div class="item servicios-s2-item-2" id="s.civil">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6">
@@ -172,25 +172,25 @@
                                     <div class="item carrusel-servicios-s2-img-4">
                                         <div class="carrusel-servicios-s2-img-contenido">
                                             <div class="carrusel-servicios-s2-img-hover">
-                                                <a href="#">Ver mas</a>
+                                                <a href="galeria.php">Ver mas</a>
                                             </div>
-                                            <a class="carrusel-servicios-s2-img-btn" href="#">CONTÁCTANOS</a>
+                                            <a class="carrusel-servicios-s2-img-btn" href="contacto.php">CONTÁCTANOS</a>
                                         </div>
                                     </div>
                                     <div class="item carrusel-servicios-s2-img-5">
                                         <div class="carrusel-servicios-s2-img-contenido">
                                             <div class="carrusel-servicios-s2-img-hover">
-                                                <a href="#">Ver mas</a>
+                                                <a href="galeria.php">Ver mas</a>
                                             </div>
-                                            <a class="carrusel-servicios-s2-img-btn" href="#">CONTÁCTANOS</a>
+                                            <a class="carrusel-servicios-s2-img-btn" href="contacto.php">CONTÁCTANOS</a>
                                         </div>
                                     </div>
                                     <div class="item carrusel-servicios-s2-img-6">
                                         <div class="carrusel-servicios-s2-img-contenido">
                                             <div class="carrusel-servicios-s2-img-hover">
-                                                <a href="#">Ver mas</a>
+                                                <a href="galeria.php">Ver mas</a>
                                             </div>
-                                            <a class="carrusel-servicios-s2-img-btn" href="#">CONTÁCTANOS</a>
+                                            <a class="carrusel-servicios-s2-img-btn" href="contacto.php">CONTÁCTANOS</a>
                                         </div>
                                     </div>
                                 </div>
@@ -198,7 +198,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item servicios-s2-item-3">
+                <div class="item servicios-s2-item-3" id="s.industrial">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6">
@@ -289,25 +289,25 @@
                                     <div class="item carrusel-servicios-s2-img-7">
                                         <div class="carrusel-servicios-s2-img-contenido">
                                             <div class="carrusel-servicios-s2-img-hover">
-                                                <a href="#">Ver mas</a>
+                                                <a href="galeria.php">Ver mas</a>
                                             </div>
-                                            <a class="carrusel-servicios-s2-img-btn" href="#">CONTÁCTANOS</a>
+                                            <a class="carrusel-servicios-s2-img-btn" href="contacto.php">CONTÁCTANOS</a>
                                         </div>
                                     </div>
                                     <div class="item carrusel-servicios-s2-img-8">
                                         <div class="carrusel-servicios-s2-img-contenido">
                                             <div class="carrusel-servicios-s2-img-hover">
-                                                <a href="#">Ver mas</a>
+                                                <a href="galeria.php">Ver mas</a>
                                             </div>
-                                            <a class="carrusel-servicios-s2-img-btn" href="#">CONTÁCTANOS</a>
+                                            <a class="carrusel-servicios-s2-img-btn" href="contacto.php">CONTÁCTANOS</a>
                                         </div>
                                     </div>
                                     <div class="item carrusel-servicios-s2-img-9">
                                         <div class="carrusel-servicios-s2-img-contenido">
                                             <div class="carrusel-servicios-s2-img-hover">
-                                                <a href="#">Ver mas</a>
+                                                <a href="galeria.php">Ver mas</a>
                                             </div>
-                                            <a class="carrusel-servicios-s2-img-btn" href="#">CONTÁCTANOS</a>
+                                            <a class="carrusel-servicios-s2-img-btn" href="contacto.php">CONTÁCTANOS</a>
                                         </div>
                                     </div>
                                 </div>
@@ -315,7 +315,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item servicios-s2-item-4">
+                <div class="item servicios-s2-item-4" id="s.eic">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6">
@@ -395,25 +395,25 @@
                                     <div class="item carrusel-servicios-s2-img-10">
                                         <div class="carrusel-servicios-s2-img-contenido">
                                             <div class="carrusel-servicios-s2-img-hover">
-                                                <a href="#">Ver mas</a>
+                                                <a href="galeria.php">Ver mas</a>
                                             </div>
-                                            <a class="carrusel-servicios-s2-img-btn" href="#">CONTÁCTANOS</a>
+                                            <a class="carrusel-servicios-s2-img-btn" href="contacto.php">CONTÁCTANOS</a>
                                         </div>
                                     </div>
                                     <div class="item carrusel-servicios-s2-img-11">
                                         <div class="carrusel-servicios-s2-img-contenido">
                                             <div class="carrusel-servicios-s2-img-hover">
-                                                <a href="#">Ver mas</a>
+                                                <a href="galeria.php">Ver mas</a>
                                             </div>
-                                            <a class="carrusel-servicios-s2-img-btn" href="#">CONTÁCTANOS</a>
+                                            <a class="carrusel-servicios-s2-img-btn" href="contacto.php">CONTÁCTANOS</a>
                                         </div>
                                     </div>
                                     <div class="item carrusel-servicios-s2-img-12">
                                         <div class="carrusel-servicios-s2-img-contenido">
                                             <div class="carrusel-servicios-s2-img-hover">
-                                                <a href="#">Ver mas</a>
+                                                <a href="galeria.php">Ver mas</a>
                                             </div>
-                                            <a class="carrusel-servicios-s2-img-btn" href="#">CONTÁCTANOS</a>
+                                            <a class="carrusel-servicios-s2-img-btn" href="contacto.php">CONTÁCTANOS</a>
                                         </div>
                                     </div>
                                 </div>
@@ -421,7 +421,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item servicios-s2-item-5">
+                <div class="item servicios-s2-item-5"id="s.enod">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6">
@@ -481,25 +481,25 @@
                                     <div class="item carrusel-servicios-s2-img-13">
                                         <div class="carrusel-servicios-s2-img-contenido">
                                             <div class="carrusel-servicios-s2-img-hover">
-                                                <a href="#">Ver mas</a>
+                                                <a href="galeria.php">Ver mas</a>
                                             </div>
-                                            <a class="carrusel-servicios-s2-img-btn" href="#">CONTÁCTANOS</a>
+                                            <a class="carrusel-servicios-s2-img-btn" href="contacto.php">CONTÁCTANOS</a>
                                         </div>
                                     </div>
                                     <div class="item carrusel-servicios-s2-img-14">
                                         <div class="carrusel-servicios-s2-img-contenido">
                                             <div class="carrusel-servicios-s2-img-hover">
-                                                <a href="#">Ver mas</a>
+                                                <a href="galeria.php">Ver mas</a>
                                             </div>
-                                            <a class="carrusel-servicios-s2-img-btn" href="#">CONTÁCTANOS</a>
+                                            <a class="carrusel-servicios-s2-img-btn" href="contacto.php">CONTÁCTANOS</a>
                                         </div>
                                     </div>
                                     <div class="item carrusel-servicios-s2-img-15">
                                         <div class="carrusel-servicios-s2-img-contenido">
                                             <div class="carrusel-servicios-s2-img-hover">
-                                                <a href="#">Ver mas</a>
+                                                <a href="galeria.php">Ver mas</a>
                                             </div>
-                                            <a class="carrusel-servicios-s2-img-btn" href="#">CONTÁCTANOS</a>
+                                            <a class="carrusel-servicios-s2-img-btn" href="contacto.php">CONTÁCTANOS</a>
                                         </div>
                                     </div>
                                 </div>

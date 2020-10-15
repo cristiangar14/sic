@@ -5,7 +5,7 @@
                 <h2>Galeria</h2>
                 <p>
                     Conozca nuestros proyectos mas importantes, sabemos lo que hacemos y estamos
-                    <a href="#">comprometidos con la calidad.</a>
+                    <a href="galeria.php">comprometidos con la calidad.</a>
                 </p>
             </div>
         </div>

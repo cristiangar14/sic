@@ -20,11 +20,11 @@
                 <div class="nosotros-descargables">
                     <div class="d-flex align-items-center mb-3">
                         <span class="far fa-arrow-alt-circle-down"></span>
-                        <a href="#" download="Organigrama.pdf">Organigrama</a>
+                        <a href="../sic/descargas/organigrama.pdf" download="Organigrama.pdf">Organigrama</a>
                     </div>
                     <div class="d-flex align-items-center mb-3">
                         <span class="far fa-arrow-alt-circle-down"></span>
-                        <a href="#" download="Mapa de Procesos.pdf">Mapa de Procesos</a>
+                        <a href="../sic/descargas/mprocesos.pdf" download="Mapa de Procesos.pdf">Mapa de Procesos</a>
                     </div>
                 </div>
             </div>

@@ -15,7 +15,7 @@
                         <div class="home-tab d-flex">
                             <div class="home-tab-iconoboton col-12 col-md-12 col-lg-5">
                                 <img src="../sic/img/iconos/icono-nosotros.svg" alt="icono nosotros">
-                                <a href="#">IR A NOSOTROS</a>
+                                <a href="nosotros.php">IR A NOSOTROS</a>
                             </div>
                             <div class="home-tab-contenido col-12 col-md-12 col-lg-7">
                                 <H3>NOSOTROS</H3>
@@ -29,7 +29,7 @@
                         <div class="home-tab d-flex">
                             <div class="home-tab-iconoboton col-12 col-md-12 col-lg-5">
                                 <img src="../sic/img/iconos/mision.svg" alt="icono mision">
-                                <a href="#">IR A NOSOTROS</a>
+                                <a href="nosotros.php#mision">IR A NOSOTROS</a>
                             </div>
                             <div class="home-tab-contenido col-12 col-md-12 col-lg-7">
                                 <H3>MISIÓN</H3>
@@ -43,7 +43,7 @@
                         <div class="home-tab d-flex">
                             <div class="home-tab-iconoboton col-12 col-md-12 col-lg-5">
                                 <img src="../sic/img/iconos/vision.svg" alt="icono vision">
-                                <a href="#">IR A NOSOTROS</a>
+                                <a href="nosotros.php#vision">IR A NOSOTROS</a>
                             </div>
                             <div class="home-tab-contenido col-12 col-md-12 col-lg-7">
                                 <H3>VISIÓN</H3>
@@ -57,7 +57,7 @@
                         <div class="home-tab d-flex">
                             <div class="home-tab-iconoboton col-12 col-md-12 col-lg-5">
                                 <img src="../sic/img/iconos/control-de-calidad.svg" alt="icono gestion de calidad">
-                                <a href="#">IR A NOSOTROS</a>
+                                <a href="nosotros.php">IR A NOSOTROS</a>
                             </div>
                             <div class="home-tab-contenido col-12 col-md-12 col-lg-7">
                                 <H3>GESTIÓN DE CALIDAD</H3>

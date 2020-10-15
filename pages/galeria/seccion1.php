@@ -4,8 +4,8 @@
         <a href="https://www.twitter.com/"><span class="fab fa-twitter-square"></span></a>
         <a href="https://www.facebook.com/"><span class="fab fa-facebook-square"></span></a>
     </div>
-    <div class="nosotros-seccion1-banner servicios-seccion1-banner">
-        <div class="nosotros-seccion1-banner-color servicios-seccion1-banner-color"></div>
+    <div class="nosotros-seccion1-banner galeria-seccion1-banner">
+        <div class="nosotros-seccion1-banner-color galeria-seccion1-banner-color"></div>
     </div>
     <div class="nosotros-seccion1-cajainferior"></div>
     
